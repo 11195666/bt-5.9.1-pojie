@@ -31,7 +31,8 @@ data = {'status' : True,'msg' : {'endtime' : 32503651199 }}
 
 注意：安装前请关闭宝塔网页  防止错误
 
-如果使用失败，请恢复成免费版 代码为
+# 如果使用失败，请恢复成免费版
+代码为
 ```
 wget -O update.sh http://download.bt.cn/install/update.sh && bash update.sh free
 ```
