@@ -1,9 +1,18 @@
 # 宝塔专业版手动破解方法
 
-首先安装面板免费版
-```yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh```
+# 首先安装面板免费版
 
-然后升级专业版
+CentOS
+```
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+```
+
+Debian/Ubuntu
+```
+wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+```
+
+# 然后升级专业版
 ```
 wget -O update.sh http://download.bt.cn/install/update_pro.sh && bash update.sh pro
 ```
@@ -23,6 +32,8 @@ data = {'status' : True,'msg' : {'endtime' : 32503651199 }}
 注意：安装前请关闭宝塔网页  防止错误
 
 如果使用失败，请恢复成免费版 代码为
+```
 wget -O update.sh http://download.bt.cn/install/update.sh && bash update.sh free
+```
 
 本地玩下可以 运营请支持正版
