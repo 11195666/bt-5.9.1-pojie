@@ -1,25 +1,30 @@
-[¾­Ñé] ±¦Ëş×¨Òµ°æÊÖ¶¯ÆÆ½â·½·¨
-Ê×ÏÈ°²×°Ãæ°åÃâ·Ñ°æ
+# å®å¡”ä¸“ä¸šç‰ˆæ‰‹åŠ¨ç ´è§£æ–¹æ³•
+
+é¦–å…ˆå®‰è£…é¢æ¿å…è´¹ç‰ˆ
+```
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+```
 
-È»ºóÉı¼¶×¨Òµ°æ
+ç„¶åå‡çº§ä¸“ä¸šç‰ˆ
+```
 wget -O update.sh http://download.bt.cn/install/update_pro.sh && bash update.sh pro
+```
 
-ÕÒµ½Â·¾¶/www/server/panel/class ÕÒµ½ÎÄ¼şÃû»òÕßÖ±½ÓËÑË÷£ºcommon.py
+æ‰¾åˆ°è·¯å¾„/www/server/panel/class æ‰¾åˆ°æ–‡ä»¶åæˆ–è€…ç›´æ¥æœç´¢ï¼šcommon.py
 
-ËÑË÷´úÂë164ĞĞ
+æœç´¢ä»£ç 164è¡Œ
 data = panelAuth().get_order_status(None)
 
-Ìæ»»³É
+æ›¿æ¢æˆ
 data = {'status' : True,'msg' : {'endtime' : 32503651199 }}
 
-Íê³Éºó£¬½øÈë /www/server/panel/data ĞÂ½¨Ò»¸öÎÄ¼ş ÎÄ¼şÃûÎª£ºuserInfo.json ÄÚÈİ¿ÕµÄ£¬Èç¹û´æÔÚÕâ¸öÎÄ¼şµÄÉ¾µôÖØĞÂĞÂ½¨ÎÄ¼ş¡£
+å®Œæˆåï¼Œè¿›å…¥ /www/server/panel/data æ–°å»ºä¸€ä¸ªæ–‡ä»¶ æ–‡ä»¶åä¸ºï¼šuserInfo.json å†…å®¹ç©ºçš„ï¼Œå¦‚æœå­˜åœ¨è¿™ä¸ªæ–‡ä»¶çš„åˆ æ‰é‡æ–°æ–°å»ºæ–‡ä»¶ã€‚
 
-×îºóÊäÈëÃüÁî /etc/init.d/bt restart ÖØÆô±¦Ëş ÍêÃÀàËÆ¤£¡£¡
+æœ€åè¾“å…¥å‘½ä»¤ /etc/init.d/bt restart é‡å¯å®å¡” å®Œç¾å—¨çš®ï¼ï¼
 
-×¢Òâ£º°²×°Ç°Çë¹Ø±Õ±¦ËşÍøÒ³  ·ÀÖ¹´íÎó
+æ³¨æ„ï¼šå®‰è£…å‰è¯·å…³é—­å®å¡”ç½‘é¡µ  é˜²æ­¢é”™è¯¯
 
-Èç¹ûÊ¹ÓÃÊ§°Ü£¬Çë»Ö¸´³ÉÃâ·Ñ°æ ´úÂëÎª
+å¦‚æœä½¿ç”¨å¤±è´¥ï¼Œè¯·æ¢å¤æˆå…è´¹ç‰ˆ ä»£ç ä¸º
 wget -O update.sh http://download.bt.cn/install/update.sh && bash update.sh free
 
-±¾µØÍæÏÂ¿ÉÒÔ ÔËÓªÇëÖ§³ÖÕı°æ
+æœ¬åœ°ç©ä¸‹å¯ä»¥ è¿è¥è¯·æ”¯æŒæ­£ç‰ˆ
